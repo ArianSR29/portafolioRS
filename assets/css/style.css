@@ -1,0 +1,72 @@
+@font-face{
+    font-family: Lato-Regular;
+    src: url('../fonts/Lato-Regular.ttf')
+}
+@font-face{
+    font-family: Lato-Bold;
+    src: url('../fonts/Lato-Bold.ttf');
+}
+@font-face{
+    font-family: Lato-Light;
+    src: url('../fonts/Lato-Light.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+li,
+object,
+ol,
+p,
+span,
+tbody,
+td,
+th,
+tr,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.latoR{
+    font-family: Lato-Regular;
+}
+.latoB{
+    font-family: Lato-Bold;
+}
+.latoL{
+    font-family: Lato-Light;
+}
+.fs54{
+    font-size: 54px;
+}
+.fs15{
+    font-size: 15px;
+}
+
+.white{
+    color: #fff;
+}
