@@ -1,6 +1,6 @@
-@font-face{
-    font-family: Lato-Regular;
-    src: url('../fonts/Lato-Regular.ttf')
+font-family: Lato-Regular;
+src: url('../fonts/Lato-Regular.ttf')
+        @font-face{
 }
 @font-face{
     font-family: Lato-Bold;
@@ -63,10 +63,103 @@ img {
 .fs54{
     font-size: 54px;
 }
+.fs34{
+    font-size: 34px;
+}
 .fs15{
     font-size: 15px;
 }
 
 .white{
     color: #fff;
+}
+.gray3c{
+    color: #3c3c3c
+}
+.c-main-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bgr-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.c-main-text{
+    width: 40%;
+    text-align: center;
+}
+.c-title h4{
+    letter-spacing: 5px;
+}
+.c-title h4 span{
+    padding: 0px 100px;    
+}
+.c-desc{
+    width: 90%;
+    margin: 25px auto 0px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+.c-main-text img{
+    width: 10%;
+    margin-bottom: 30px;
+}
+.c-about-main{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 3px #3c3c3c;
+    padding: 50px;
+}
+.about-title{
+    background: #fff;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -70px;
+    letter-spacing: 5px;
+}
+
+.about-text div:nth-child(2){
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.about-text div:nth-child(3){
+    margin-top: 30px;
+    padding: 0px 75px;
+}
+.c-grilla-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grilla-item{
+    width: 33%;
+    margin: 0px auto;
+    position: relative;
+    height: initial;
+}
+.mask{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+}
+.mask span{
+    margin-left: 50px;
+    letter-spacing: 5px;
+}
+.grilla-item:hover > .mask{
+    background: rgba(0, 0, 0, 0.7);
+    content: '';
+    height: 100%;
+    transition: all 500ms ease-in;
+    display: flex;
+    align-items: center;
 }
